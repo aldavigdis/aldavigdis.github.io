@@ -1,0 +1,172 @@
+/*
+Defaults
+*/
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: #fff;
+  border-top: 15px solid rgb(130, 10, 180);
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  color: #333;
+  padding-bottom: 40px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+h1 a {
+  color: #333;
+  border-bottom: 7px solid transparent;
+  transition-duration: 250ms;
+}
+
+h1 a:hover {
+  border-bottom: 7px solid rgb(130, 10, 180);
+}
+
+p {
+  font-size: 24px;
+}
+
+ul {
+  padding: 0 1em;
+}
+
+li {
+  font-size: 24px;
+  margin-bottom: 0.25em;
+}
+
+hgroup {
+  margin: 0 20px;
+}
+
+hgroup h1 {
+  display: inline-block;
+}
+
+hgroup h2 {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+hgroup h2::before {
+  content: '// ';
+  color: rgb(130, 10, 180);
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+table {
+  margin: 0 20px;
+}
+
+th, td {
+  font-size: 24px;
+  padding-bottom: 0.5em;
+  vertical-align: top;
+}
+
+th[scope="row"] {
+  text-align: right;
+  padding-right: 0.5em;
+}
+
+li {
+  list-style: square outside;
+  margin-left: 0.5em;
+}
+
+h4 abbr { text-decoration: none !important; }
+
+/*
+Index
+*/
+
+.index-content {
+  margin: 0 20px;
+}
+
+/*
+Resume
+*/
+
+.resume h3 {
+  font-size: 52px;
+  margin-bottom: 0.25em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.resume-section {
+  padding: 20px;
+  transition-duration: 250ms;
+}
+
+.resume-section td {
+  width: 70%;
+}
+
+.resume-section:hover {
+  background-color: #f0f0f0;
+}
+
+.resume-section li:last-child, .resume-section ul {
+  margin-bottom: 0;
+}
+
+.project, .school {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 0.25em;
+}
+
+.period {
+  display: inline;
+  font-size: 22px;
+  margin: 0;
+}
+
+.role {
+  display: inline;
+  margin: 0;
+  margin-right: 0.5em;
+  font-weight: 600;
+}
+
+.description {
+  line-height: 125%;
+}
+
+.description:last-child {
+  margin-bottom: 0;
+}
+
+.education-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.educatoin-container .period {
+  margin: 0;
+}
+
+.education-node {
+  margin-right: 2em;
+  min-width: calc(50% - 2em);
+}

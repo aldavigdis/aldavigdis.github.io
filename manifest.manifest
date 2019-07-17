@@ -1,0 +1,20 @@
+{
+  "name": "Alda Vigdis",
+  "short_name": "Alda Vigdis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "rgb(130, 10, 180)",
+  "icons": [
+    {
+      "src": "/img/favicon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/favicon512.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
