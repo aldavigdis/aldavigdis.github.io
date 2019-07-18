@@ -260,4 +260,8 @@ Resume
     width: 100%;
     height: auto;
   }
+
+  .index-content {
+    margin: 20px;
+  }
 }
