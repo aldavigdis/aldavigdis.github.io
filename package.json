@@ -8,8 +8,5 @@
   },
   "author": "Alda Vigdís Skarphéðinsdóttir",
   "license": "ISC",
-  "dependencies": {
-    "normalize.css": "^8.0.1",
-    "turbolinks": "^5.2.0"
-  }
+  "dependencies": {}
 }
