@@ -229,7 +229,7 @@ Resume
     font-size: 24px;
   }
 
-  p, li, address {
+  p, li, address, th, td {
     font-size: 16px;
   }
 
@@ -243,6 +243,15 @@ Resume
 
   .project, .school {
     font-size: 24px !important;
+  }
+
+  .education-node {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  .education-node:last-child {
+    margin-bottom: 0;
   }
 
   .period {
