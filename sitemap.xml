@@ -1,0 +1,17 @@
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://aldavigdis.is/</loc>
+    <lastmod>2020-04-16T21:08:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://aldavigdis.is/resume.html</loc>
+    <lastmod>2020-04-16T20:59:08+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://aldavigdis.is/impressium.html</loc>
+    <lastmod>2019-08-27T18:21:06+00:00</lastmod>
+    <priority>0.20</priority>
+  </url>
+</urlset>
