@@ -222,11 +222,11 @@ Resume
   }
 
   hgroup h2 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .main-content h3 {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   p, li, address, th, td {
@@ -234,7 +234,7 @@ Resume
   }
 
   .resume h3 {
-    font-size: 32px;
+    font-size: 48px;
   }
 
   .alda-picture img {
@@ -256,6 +256,13 @@ Resume
 
   .period {
     font-size: inherit;
+  }
+
+  .index-nav a {
+    display: block;
+    padding: 0.2em;
+    font-weight: bold;
+    font-size: 24px;
   }
 }
 
