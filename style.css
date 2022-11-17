@@ -19,21 +19,20 @@ body {
   position: relative;
 }
 
-a {
-  color: #666;
-  text-decoration: none;
-  box-shadow: none;
-  transition-duration: 250ms;
-}
-
-a:hover {
-  color: #333;
-  box-shadow: 0 5px 0 -4px rgba(130, 10, 180, 1);
+p a, li a, .impressium-link {
+  color: #000;
 }
 
 h1 a {
   color: #333;
   transition-duration: 250ms;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+h1 a:hover {
+  color: #333;
+  box-shadow: 0 5px 0 -4px rgba(130, 10, 180, 1);
 }
 
 h1 a:hover {
