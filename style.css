@@ -130,6 +130,14 @@ em {
   margin-left: 20px;
 }
 
+footer.updated {
+  margin-top: 3em;
+}
+
+footer.updated p {
+  font-size: 12px;
+}
+
 /*
 Index
 */
@@ -149,6 +157,29 @@ Contact
 
 .impressium-content {
   margin: 0 20px;
+}
+
+/*
+Job
+*/
+
+.job h1 {
+}
+
+.job h3 {
+  font-size: 26px;
+  margin-top: 1.5em;
+}
+
+.job p {
+  font-size: 18px
+}
+
+.job li {
+  font-size: 18px;
+  margin: 0.66em 0;
+  padding-left: 0.5em;
+  max-width: 30em;
 }
 
 /*
