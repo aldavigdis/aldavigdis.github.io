@@ -3,24 +3,31 @@ Defaults
 */
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Playwrite DK Loopet", cursive;
 }
 
 html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f6f6f6;
   border-top: 15px solid rgb(130, 10, 180);
+  height: calc( 100vh - 15px );
 }
 
 body {
-  max-width: 960px;
-  margin: 20px auto;
+  max-width: 1200px;
   color: #333;
-  padding-bottom: 40px;
-  position: relative;
+  margin: 40px 40px;
 }
 
 p a, li a, .impressium-link {
   color: #000;
+}
+
+.impressium-link {
+  display: inline-block;
+  margin-top: 4em;
 }
 
 h1 a {
@@ -36,7 +43,7 @@ h1 a:hover {
 }
 
 p, address {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 tt {
@@ -53,98 +60,27 @@ li {
   margin-bottom: 0.25em;
 }
 
-hgroup {
-  margin: 0 20px;
-  align-items: end;
-}
-
-hgroup h1 {
-  margin-bottom: 0;
-}
-
-hgroup h2 {
-  font-size: 26px;
-  margin: 0;
-  margin-top: 20px;
-}
-
-hgroup h2::before {
-  content: '// ';
-  color: rgb(130, 10, 180);
-}
-
 h1 {
   font-size: 72px;
-}
-
-h2 {
-  font-size: 52px;
-}
-
-h3 {
-  font-size: 32px;
-  margin-bottom: 0.25em;
-}
-
-address {
-  font-style: normal;
-}
-
-table {
-  margin: 0 20px;
-}
-
-th, td {
-  font-size: 24px;
-  padding-bottom: 0.5em;
-  vertical-align: top;
-}
-
-th[scope="row"] {
-  text-align: right;
-  padding-right: 0.5em;
-}
-
-li {
-  list-style: square outside;
-  margin-left: 0.5em;
-}
-
-h4 abbr { text-decoration: none !important; }
-
-em {
-  font-style: normal;
-  background-color: rgba(130, 10, 180, 0.33);
-}
-
-.main-content {
-  margin: 60px 20px;
-}
-
-.impressium-link {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-footer.updated {
-  margin-top: 3em;
-}
-
-footer.updated p {
-  font-size: 12px;
 }
 
 /*
 Index
 */
 
+.index-content {
+  display: flex;
+}
+
 .alda-picture {
-  float: right;
+  margin-top: 3em;
 }
 
 .alda-picture img {
-  height: 380px;
+  height: 280px;
   width: auto;
+  border: 10px solid #fff;
+  border-radius: 50%;
 }
 
 /*
@@ -155,152 +91,16 @@ Contact
   margin: 0 20px;
 }
 
-/*
-Job
-*/
-
-.job h1 {
-}
-
-.job h3 {
-  font-size: 26px;
-  margin-top: 1.5em;
-}
-
-.job p {
-  font-size: 18px
-}
-
-.job li {
-  font-size: 18px;
-  margin: 0.66em 0;
-  padding-left: 0.5em;
-  max-width: 30em;
-}
-
-/*
-Resume
-*/
-
-.resume h3 {
-  font-size: 52px;
-  margin-bottom: 0.25em;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.resume-section {
-  padding: 20px;
-  transition-duration: 250ms;
-}
-
-.volunteer-work .resume-section {
-  margin: 0;
-}
-
-.resume-section td {
-  width: 65%;
-}
-
-.resume-section:hover {
-  background-color: #f0f0f0;
-}
-
-.resume-section li:last-child, .resume-section ul {
-  margin-bottom: 0;
-}
-
-.project, .school {
-  font-size: 32px;
-  margin: 0;
-  margin-bottom: 0.25em;
-}
-
-.period {
-  display: inline;
-  margin: 0;
-  font-size: 20px;
-}
-
-.role {
-  display: inline;
-  margin: 0;
-  margin-right: 0.5em;
-  font-weight: 600;
-}
-
-.description {
-  line-height: 125%;
-}
-
-.freelance-projects .description {
-  margin-top: 0;
-}
-
-.section-description {
-  line-height: 125%;
-  margin: 0 20px;
-}
-
-.description:last-child {
-  margin-bottom: 0;
-}
-
-@media (max-width: 820px) {
-  h1 {
-    font-size: 48px;
-  }
-
-  hgroup h2 {
-    font-size: 24px;
-  }
-
-  .main-content h3 {
-    font-size: 32px;
-  }
-
-  p, li, address, th, td {
-    font-size: 16px;
-  }
-
-  .resume h3 {
-    font-size: 48px;
-  }
-
-  .alda-picture img {
-    height: 250px;
-  }
-
-  .project, .school {
-    font-size: 24px !important;
-  }
-
-  .period {
-    font-size: inherit;
-  }
-
-  .index-nav a {
+@media (max-width: 1290px) {
+  html {
     display: block;
-    padding: 0.2em;
-    font-weight: bold;
-    font-size: 24px;
+  }
+  .alda-picture {
+    display: none;
   }
 }
 
 @media (max-width: 500px) {
-  .alda-picture {
-    float: none;
-    margin: 0;
-  }
-
-  .alda-picture img {
-    width: 100%;
-    height: auto;
-  }
-
-  .index-content {
-    margin: 20px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -312,7 +112,7 @@ Resume
     color: #ccc
   }
 
-  p a, li a, h1 a, hgroup h2::before {
+  p a, li a, .impressium-link {
     color: #9999ff;
   }
 
